@@ -1,0 +1,7 @@
+Metric,Classical ML,MobileNetV2
+Accuracy,0.9634,0.9817
+Macro Precision,0.9595,0.9755
+Macro Recall,0.95,0.9755
+Macro F1-score,0.9502,0.9754
+CPU Inference Latency (ms),0.6,19.23
+Model Size (MB),0.13,9.35
