@@ -1,0 +1,81 @@
+{
+  "notebooks": {
+    "notebooks/01_eda_and_data_cleaning.ipynb": {
+      "path": "C:\\Users\\gobin\\Desktop\\Documents\\Greenpods\\notebooks\\01_eda_and_data_cleaning.ipynb",
+      "status": "PASS",
+      "cells": 11,
+      "error": null
+    },
+    "notebooks/02_approach_1_classical_ml.ipynb": {
+      "path": "C:\\Users\\gobin\\Desktop\\Documents\\Greenpods\\notebooks\\02_approach_1_classical_ml.ipynb",
+      "status": "PASS",
+      "cells": 11,
+      "error": null
+    },
+    "notebooks/03_approach_2_deep_learning.ipynb": {
+      "path": "C:\\Users\\gobin\\Desktop\\Documents\\Greenpods\\notebooks\\03_approach_2_deep_learning.ipynb",
+      "status": "PASS",
+      "cells": 11,
+      "error": null
+    },
+    "notebooks/04_model_evaluation_and_demo.ipynb": {
+      "path": "C:\\Users\\gobin\\Desktop\\Documents\\Greenpods\\notebooks\\04_model_evaluation_and_demo.ipynb",
+      "status": "PASS",
+      "cells": 9,
+      "error": null
+    }
+  },
+  "src_modules": {
+    "src/__init__.py": "PASS",
+    "src/config.py": "PASS",
+    "src/reproducibility.py": "PASS",
+    "src/data_audit.py": "PASS",
+    "src/preprocessing.py": "PASS",
+    "src/dataset.py": "PASS",
+    "src/classical_model.py": "PASS",
+    "src/dl_model.py": "PASS",
+    "src/training.py": "PASS",
+    "src/evaluation.py": "PASS",
+    "src/inference.py": "PASS",
+    "src/visualization.py": "PASS"
+  },
+  "scripts": {
+    "main_demo.py": "PASS",
+    "scripts/audit_dataset.py": "PASS",
+    "scripts/prepare_dataset.py": "PASS",
+    "scripts/train_classical.py": "PASS",
+    "scripts/train_deep_learning.py": "PASS",
+    "scripts/evaluate_models.py": "PASS",
+    "scripts/run_all.py": "PASS",
+    "scripts/verify_submission.py": "PASS"
+  },
+  "documentation": {
+    "README.md": "PASS",
+    "requirements.txt": "PASS",
+    "pyproject.toml": "PASS",
+    "LICENSE": "PASS",
+    "docs/REQUIREMENTS_TRACEABILITY.md": "PASS",
+    "docs/VIDEO_WALKTHROUGH.md": "PASS",
+    "docs/MODEL_CARD.md": "PASS",
+    "docs/EXPERIMENT_PROTOCOL.md": "PASS",
+    "docs/TROUBLESHOOTING.md": "PASS",
+    "report/Assignment2_Avocado_Report.md": "PASS",
+    "report/Assignment2_Avocado_Report.pdf": "PASS"
+  },
+  "tests": {
+    "tests/test_dataset.py": "PASS",
+    "tests/test_preprocessing.py": "PASS",
+    "tests/test_classical_model.py": "PASS",
+    "tests/test_dl_model.py": "PASS",
+    "tests/test_evaluation.py": "PASS",
+    "tests/test_inference.py": "PASS",
+    "tests/test_submission.py": "PASS"
+  },
+  "artifacts": {
+    "Classical Model (.joblib)": "PASS",
+    "Deep Learning Model (.pth)": "PASS",
+    "Dataset Split Manifest": "PASS",
+    "Dataset Audit JSON": "PASS",
+    "Model Comparison CSV": "PASS"
+  }
+}
