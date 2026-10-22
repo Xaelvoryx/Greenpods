@@ -1,0 +1,9 @@
+metric,value
+Total Images Discovered,1090.0
+Valid Readable Images,1090.0
+Corrupted / Unreadable Images,0.0
+Exact Duplicate Images (MD5),0.0
+Mean Width,669.0
+Mean Height,659.4
+Min File Size (KB),21.0
+Max File Size (KB),280.9
