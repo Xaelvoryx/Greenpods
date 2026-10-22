@@ -1,0 +1,20 @@
+{
+  "total_images": 1090,
+  "valid_images": 1090,
+  "corrupted_images": 0,
+  "duplicate_count": 0,
+  "class_distribution": {
+    "underripe": 369,
+    "breaking": 314,
+    "overripe": 206,
+    "ripe": 201
+  },
+  "formats": {
+    ".jpg": 776,
+    ".png": 314
+  },
+  "color_modes": {
+    "RGB": 1058,
+    "RGBA": 32
+  }
+}
