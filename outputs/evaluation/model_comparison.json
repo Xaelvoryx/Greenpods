@@ -1,0 +1,32 @@
+[
+  {
+    "Metric": "Accuracy",
+    "Classical ML": 0.9634,
+    "MobileNetV2": 0.9817
+  },
+  {
+    "Metric": "Macro Precision",
+    "Classical ML": 0.9595,
+    "MobileNetV2": 0.9755
+  },
+  {
+    "Metric": "Macro Recall",
+    "Classical ML": 0.95,
+    "MobileNetV2": 0.9755
+  },
+  {
+    "Metric": "Macro F1-score",
+    "Classical ML": 0.9502,
+    "MobileNetV2": 0.9754
+  },
+  {
+    "Metric": "CPU Inference Latency (ms)",
+    "Classical ML": 0.6,
+    "MobileNetV2": 19.23
+  },
+  {
+    "Metric": "Model Size (MB)",
+    "Classical ML": 0.13,
+    "MobileNetV2": 9.35
+  }
+]
