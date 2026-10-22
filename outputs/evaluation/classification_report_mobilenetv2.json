@@ -1,0 +1,39 @@
+{
+  "underripe": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 56.0
+  },
+  "breaking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 47.0
+  },
+  "ripe": {
+    "precision": 0.9354838709677419,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9508196721311475,
+    "support": 30.0
+  },
+  "overripe": {
+    "precision": 0.9666666666666667,
+    "recall": 0.9354838709677419,
+    "f1-score": 0.9508196721311475,
+    "support": 31.0
+  },
+  "accuracy": 0.9817073170731707,
+  "macro avg": {
+    "precision": 0.9755376344086022,
+    "recall": 0.9755376344086022,
+    "f1-score": 0.9754098360655736,
+    "support": 164.0
+  },
+  "weighted avg": {
+    "precision": 0.9818974560713349,
+    "recall": 0.9817073170731707,
+    "f1-score": 0.9817073170731707,
+    "support": 164.0
+  }
+}
