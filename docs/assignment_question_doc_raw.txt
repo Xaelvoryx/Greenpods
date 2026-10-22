@@ -1,0 +1,37 @@
+﻿Greenpod labs data science Assignment Question 
+ASSIGNMENT-2        
+
+
+Using the dataset available at the provided link, build a computer vision pipeline to detect and classify different Avocado ripening stage. You must implement and compare at least two different approaches (e.g., classical image-processing methods, CNN-based classifiers, lightweight deep learning architectures).
+
+
+Outcome Expected
+
+
+1.Understanding of the Dataset
+       Identification of data outliers, class imbalance, and biases
+
+
+2.Understanding of Model Selection
+     Explanation of why you selected each model or algorithm
+    Justification based on dataset characteristics and problem constraints
+
+
+3.Understanding of Evaluation Metrics
+  Clear reasoning behind the metrics you chose (Accuracy, F1-score, Recall, etc.)
+  Explanation of how these metrics helped you decide which model performs best
+  Prepare a report including all the above, along with one example run demonstrating how your      model works.
+
+
+Dataset link: https://drive.google.com/file/d/1NMJ0FOxcWH1mwFFeERuY6fgEY-MVgeET/view
+
+
+
+1. In production how your model performs?
+2. What is the drawback of your model?
+3. If given more time, what would you will improve
+4. Where you spend more time, during solving your assignment?
+ 
+ 
+NOTE:
+If a candidate has done only 1 approach, then the project is not accepted. And the questions given at the end should also be answered(mandatory).
