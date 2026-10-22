@@ -1,0 +1,86 @@
+# Professional Git Ignore Policy
+# Avocado Ripening Stage Classification System
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller & Environments
+*.manifest
+*.spec
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Local workspace secrets and environment files
+.env
+.env.local
+.env.*.local
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Large datasets and temporary downloads
+data/download/
+data/download/*
+*.zip
+*.tar.gz
+*.tgz
+
+# Heavy model checkpoints (retain gitkeep in models directories)
+models/deep_learning/*.pth
+!models/deep_learning/.gitkeep
+models/classical/*.joblib
+!models/classical/.gitkeep
