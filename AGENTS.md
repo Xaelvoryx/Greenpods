@@ -1,10 +1,18 @@
 # Standing Constraint: Daily Git Commit Spreading (30 Commits/Day)
 
+## Trigger: "commit 30"
+- **Do NOT run automatically without confirmation.**
+- When the user gives the codeword **"commit 30"**, immediately start the complete daily commit spreading procedure:
+  1. Redate all unpushed commits starting from current date at **30 commits per day**.
+  2. Set both `GIT_AUTHOR_DATE` and `GIT_COMMITTER_DATE` at staggered daylight hours (09:00 - 18:00).
+  3. Push all batches to GitHub remote (`origin/main`).
+  4. Ensure standard scripts are in place (`push_daily.py`, `redate_commits.py`, `push_all_spread.py`).
+
 ## Permanent Rule for All Projects (New or Existing)
 
-Whenever the user opens, creates, or works on **any** repository/project:
+Whenever the user works on, opens, or creates **any** repository/project:
 
-1. **Commit Spreading Rule**:
+1. **Commit Spreading Rule (Activated by "commit 30")**:
    - Commits must **never** be pushed all on a single day.
    - All commits must be spread across days at a rate of **30 commits per day**, starting from the current date.
    - For every commit, both `GIT_AUTHOR_DATE` and `GIT_COMMITTER_DATE` must match the designated day and staggered times (e.g., 09:00 - 18:00) so that GitHub's contribution graph accurately turns green with 30 contributions per day.
