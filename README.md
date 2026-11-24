@@ -9,7 +9,7 @@ A production-grade, reproducible computer vision pipeline designed for automated
 
 ---
 
-## 📌 Project Architecture
+## Project Architecture
 ```
 Greenpods/
 ├── README.md                           # Master setup, workflow, and results summary
@@ -90,7 +90,7 @@ Greenpods/
 
 ---
 
-## ⚡ Quick Start & Installation
+## Quick Start & Installation
 
 ### 1. Clone Repository & Create Virtual Environment
 ```bash
@@ -111,7 +111,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Execution Commands
+## Execution Commands
 
 Execute the pipeline using individual modular CLI scripts or run the master orchestrator:
 
@@ -149,7 +149,7 @@ python scripts/verify_submission.py
 
 ---
 
-## 📊 Experimental Results & Benchmarking
+## Experimental Results & Benchmarking
 
 | Evaluation Metric | Classical ML (CIELAB + LBP + SVM) | Deep Learning (MobileNetV2) | Industrial Impact |
 | :--- | :---: | :---: | :--- |
@@ -163,7 +163,7 @@ python scripts/verify_submission.py
 
 ---
 
-## 💡 Mandatory End-of-Assignment Questions
+## Mandatory End-of-Assignment Questions
 
 ### Q1: In production, how does your model perform?
 MobileNetV2 achieves an average inference latency of **12–25 ms on GPU** and **40–55 ms on CPU**, supporting continuous sorting of **18–25 fruits per second** on optical conveyor belts. The Classical SVM pipeline runs in **8–15 ms on CPU**, offering an ultra-fast fallback for low-power edge compute. Under diffused factory lighting, classification accuracy exceeds 92%, with minor boundary noise under direct specular glare.
@@ -185,7 +185,7 @@ MobileNetV2 achieves an average inference latency of **12–25 ms on GPU** and *
 
 ---
 
-## 📜 Deliverables Checklist
+## Deliverables Checklist
 - [x] Four valid, executable Jupyter Notebooks (`notebooks/`)
 - [x] Complete modular Python package (`src/`)
 - [x] Single-image dual inference CLI (`main_demo.py`)
