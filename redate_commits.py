@@ -1,6 +1,11 @@
 import subprocess
 import os
+import sys
 from datetime import datetime, timedelta
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 
 def redate_all_unpushed(batch_size=30):
     # Fetch latest remote state
@@ -73,7 +78,7 @@ def redate_all_unpushed(batch_size=30):
     subprocess.run(["git", "reset", "--hard", current_parent], check=True)
 
     days_needed = (total + batch_size - 1) // batch_size
-    print(f"\n✅ Done! All {total} commits have been redated.")
+    print(f"\n[DONE] All {total} commits have been redated.")
     print(f"   Today ({today.strftime('%b %d')}): 30 commits ready to push")
     print(f"   Total days needed: {days_needed} days")
     print(f"\nNow run:  python push_daily.py")
